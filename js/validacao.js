@@ -12,7 +12,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
             `
             document.body.style.backgroundColor = "black";
         } else {
-            elementoChute.innerHTML += `<div>Valor inválido. Você deve falar um número</div>`
+            elementoChute.innerHTML += `<div>Você deve falar um número</div>`
         }
         return;
     }
